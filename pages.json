@@ -1,0 +1,166 @@
+{
+	"pages": [{
+		"path" : "pages/tabber/home/home",
+		"style" : 
+		{
+			"navigationBarTitleText": "不去学习",
+			"enablePullDownRefresh" : true
+			
+		}
+	},
+	{
+		"path" : "pages/tabber/my/my",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的",
+			"enablePullDownRefresh" : true
+		}
+	},
+	{
+		"path" : "pages/login/login",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的",
+			"enablePullDownRefresh" : true
+		}
+	},
+	{
+		"path" : "components/i-wd/i-wd",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	
+	{
+		"path" : "pages/tabber/study/study",
+		"style" : 
+		{
+			"navigationBarTitleText" : "商城",
+			"enablePullDownRefresh" : true
+		}
+	},
+	{
+		"path" : "components/my-favorable/my-favorable",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "components/my-profile/my-profile",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "components/my-mesage/my-mesage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "components/i-coupon/i-coupon",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/phone/phone",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "components/code-btn/code-btn",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/forget/forget",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/setting/setting",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/jumpTo/discounts/discounts",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/jumpTo/materials/materials",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/jumpTo/news/news",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8b9095",
+		"selectedColor": "#5c5c5c",
+		"borderStyle": "black",
+		"backgroundColor": "#cdcdcd",
+		"list": [{
+				"pagePath": "pages/tabber/home/home",
+				"iconPath": "static/tabber/home.png",
+				"selectedIconPath": "static/tabber/home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabber/study/study",
+				"iconPath": "static/img/shangcheng1.png",
+				"selectedIconPath": "static/img/shangcheng2.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/tabber/my/my",
+				"iconPath": "static/tabber/my.png",
+				"selectedIconPath": "static/tabber/my_selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
